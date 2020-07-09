@@ -39,15 +39,15 @@ async def help_message_f(client, message):
     # display the /help
     
     await message.reply_text("""ytdl - youtube upload to tg
-ytdl gdrive - youtube upload to cloud
-leech - leech to tg
-gleech - leech to cloud
-gleech archive - compress to cloud 
-leech unzip - unzip to tg
-gleech unzip - unzip to cloud unrar for rar
-tleech - tg file to drive
-tleech unzip - tg file uzip to drive
-getsize - info
+/ytdl gdrive - youtube upload to cloud
+/leech - leech to tg
+/gleech - leech to cloud
+/gleech archive - compress to cloud 
+/leech unzip - unzip to tg
+/gleech unzip - unzip to cloud unrar for rar
+/tleech - tg file to drive
+/tleech unzip - tg file uzip to drive
+/getsize - info
 Created By @RiDerOO7</a>""", disable_web_page_preview=True)
 
 
